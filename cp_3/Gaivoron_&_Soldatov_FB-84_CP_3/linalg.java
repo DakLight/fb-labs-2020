@@ -6,7 +6,7 @@ public class linalg {
 
 
     public static ArrayList<Integer> linsolve(int a, int b, int n){
-        int d = gcd(a, b);
+        int d = gcd(a, n);
         int a_ = a % n;
         int a1 = a_ / d;
         int b1 = b / d;
